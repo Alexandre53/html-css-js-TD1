@@ -15,8 +15,8 @@ part4=99;
 
 var newlIP = part1+"."+part2+"."+part3+"."+part4;
 
-document.write("<div div='IP1'>" + orginalIP + "</div" );
+document.write("<div id='IP1'>" + orginalIP + "</div>" );
 document.write("<br>");
-document.write("<div div='IP2'>" + newlIP + "</div" );
+document.write("<div id='IP2'>" + newlIP + "</div" );
 
 
