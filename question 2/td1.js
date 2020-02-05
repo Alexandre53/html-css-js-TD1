@@ -3,17 +3,15 @@
 
 */
 
-var part1=parti1;
-var part2=parti2;
-var part3=parti3;
-var part4=parti4;
+document.form.addEventListener("submit", myfunction);
 
+function myfunction()
+{
+	var Ip1=document.form.elements.parti1.value;
+    var Ip2=document.form.elements.parti2.value;
+    var Ip3=document.form.elements.parti3.value;
+    var Ip4=document.form.elements.parti4.value;
 
-var orginalIP = part1+"."+part2+"."+part3+"."+part4;
+console.log(Ip1+"."+Ip2+"."+ip3+"."+ip4);
 
-part4=99;
-
-var newlIP = part1+"."+part2+"."+part3+"."+part4;
-
-document.write(orginalIP);
-
+}
