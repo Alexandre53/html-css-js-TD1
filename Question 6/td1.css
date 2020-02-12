@@ -1,0 +1,44 @@
+#adr{ display: inline; 
+color: grey;}
+#adrB{ display: inline; 
+color: grey;}
+#adrR{ display: inline; 
+color: grey;}
+#adr1{ display: inline; 
+color: grey;}
+#adrD{ display: inline; 
+color: grey;}
+#NBRh{ display: inline; 
+color: grey;}
+
+#img{
+	width: 100%;
+    height: 200px;
+	}
+
+
+#titre{
+	color: orange;
+}
+
+#trait{
+	border: 0.5px solid orange;
+	margin-bottom: 10px;
+}
+
+#resultat{
+	border: 1px solid#0541B0; 
+    height: 150px;
+    width: 400px;
+    margin-left: 800px;
+    
+}
+
+#mot2{
+    margin-left: 800px
+}
+
+#trait2{
+	border: 0.5px solid orange;
+	margin-top: 20px;
+}
