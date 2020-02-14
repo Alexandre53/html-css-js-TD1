@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="td1.js"></script>
+  <link rel="stylesheet" type="text/css" href="td1.css">
+  <title>TD1-Addresse IP</title>
+</head>
+<body>
+   <header>
+   	 <div id="img"></div>
+   </header>
+  
+   <h2 id="titre">Calculatrice IP</h2>
+   <div id="trait"></div>
+   <p >Cette calculatrice IP a pour but de faciliter la gestion des masques réseaux dans une infrastructure. Donc, si vous avez une adresse IP et un masque réseau, quelque soit son format, vous pouvez utiliser la calculatrice générale ci-dessous, et ainsi vérifiez si 2 adresses sont bien dans le même réseau ou non, et par conséquent si elles peuvent utiliser la même gateway ou non, les mêmes accès réseaux...</p>
+  
+  Adresse Ip: <input type="text" id="adresse" name="adresse" >
+  Adresse Ip2: <input type="text" id="adresse2" name="adresse" ><br>
+  Masque/CIDR <input type="text" id="masque" name="masque">
+  Masque2/CIDR2 <input type="text" id="masque2" name="masque"><br>
+   <button id="bouton" onclick="v()"> Valider</button>
+   <br>
+   <p id="mot2">les Resultat de votre calcul sont :</p>
+   <div id="resultat">
+     Adresse :<div id="adr"  >.....</div><br >
+     Adresse reseau:<div id="adrR" >.....</div><br>
+     Adresse de diffusion:<div id="adrB" >......</div><br>
+     Premiere adresse:<div id="adr1" >......</div><br>
+     Derniere adresse:<div id="adrD" >......</div><br>
+     Le nombre d'hôtes possible est :<div id="NBRh" >.....</div><br>
+     2eme adresse dans le reseau: <div id="adr2">......</div>
+   </div>  
+   <div id="trait2"></div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+#adr{ display: inline; 
+color: grey;}
+#adrB{ display: inline; 
+color: grey;}
+#adrR{ display: inline; 
+color: grey;}
+#adr1{ display: inline; 
+color: grey;}
+#adrD{ display: inline; 
+color: grey;}
+#NBRh{ display: inline; 
+color: grey;}
+
+#adr2{ display: inline; 
+color: grey;}
+
+#img{
+	
+	width: 100%;
+    height: 200px;
+    background-image: url(subnet3.png);
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+	}
+
+
+#titre{
+	color: orange;
+}
+
+#trait{
+	border: 0.5px solid orange;
+	margin-bottom: 10px;
+}
+
+#resultat{
+	border: 1px solid#0541B0; 
+    height: 150px;
+    width: 400px;
+    margin-left: 800px;
+    p
+}
+
+#mot2{
+    margin-left: 800px
+}
+
+#trait2{
+	border: 0.5px solid orange;
+	margin-top: 20px;
+}
+
+#bouton{
+	margin-top: 10px;
+}
+
+#adresse2{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#masque2{
+	margin-top: 10px;
+	margin-left: 10px;
+}
